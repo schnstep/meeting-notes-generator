@@ -11,7 +11,8 @@ read -p "Meeting title: " TITLE
 mkdir -p ~/Documents/Meetings
 
 # Create notes file
-FILENAME="$TODAY-${TITLE// /-}.md"
+TIME=$(date +%H-%M)
+FILENAME="$TODAY-$TIME-${TITLE// /-}.md"
 
 cat > ~/Documents/Meetings/"$FILENAME" << END
 # $TITLE
@@ -27,7 +28,6 @@ cat > ~/Documents/Meetings/"$FILENAME" << END
 ## Discussion Points
 
 ## Action Items
-
 - []
 
 ## Nest Steps
