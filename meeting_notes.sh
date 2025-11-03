@@ -42,3 +42,4 @@ END
 
 echo "Meeting notes created: ~/Documents/Meetings/$FILENAME"
 open ~/Documents/Meetings/"$FILENAME"
+# Bad feature
