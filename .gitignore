@@ -1,0 +1,10 @@
+# OS files
+.DS_Store
+
+# Temp files
+*.tmp
+*.log
+
+# Sensitive
+.env
+secrets.txt
