@@ -12,7 +12,7 @@ Enter meeting title when prompted. Script creates a dated file in '~/Documents/M
 ## Features
 
 - Automatic date stamping
-- Structured
+- Structured template
 - Action item checklist
 - Auto-opens in default editor
 
@@ -20,5 +20,11 @@ Enter meeting title when prompted. Script creates a dated file in '~/Documents/M
 '''bash
 chmod +x meeting_notes.sh
 cp meeting_notes.sh ~/.local/bin/meeting-notes
-
 '''
+
+## Requirements
+
+- macOS or Linux
+- Bash schell
+- Documents folder in home directory
+
