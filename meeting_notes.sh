@@ -1,6 +1,12 @@
 #!/bin/bash
 # meeting_notes.sh - Generate structured meeting notes
 
+# Check if Documents directory exists
+if [ ! -d ~/Documents ]; then
+echo "Error: Documents directory not found"
+exit 1
+fi
+
 # Get today's date
 TODAY=$(date +%Y-%m-%d)
 
